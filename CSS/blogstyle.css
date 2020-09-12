@@ -1,0 +1,83 @@
+* {
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+            text-align: center;
+            font-family: Arial;
+}
+body{
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+header{
+	background-color: #CABBB7;
+	height: 20vh;
+}
+#Header-Title{
+	position: absolute;
+	left: 10vw;
+	top: 9vh;
+	font-size: 20pt;
+	margin-right: 10vw;
+}
+#logo{
+	position: absolute;
+	top: 4vh;
+	right: 10vw;
+}
+nav{
+	height: 6vh;
+	background-color: #C65252
+}
+ul{
+	list-style: none;
+}
+a{	
+	font-weight: bold;
+	margin-top: 0.5vh;
+	text-decoration: none;
+	font-size: 25pt;
+	color: white;
+	float: right;
+	margin-left: 2vw;
+
+}
+#contact{
+	padding-right: 5vw;
+}
+main{
+	margin-right: 7.5vw;
+	margin-left: 7.5vw;
+}
+footer{
+
+	background-color: #CABBB7;
+	height: 20vh;
+}
+
+#bottom-logo{
+	float: center;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+#footer-text{
+	font-size: 15pt;
+}
+h1{
+		font-size: 20pt;
+		margin-top: 3vh;
+		margin-bottom: 3vh;
+}
+.blog{
+	text-align: left;
+	font-size: 15pt;
+
+}
+div{
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+#blog-image{
+	max-width: 25%;
+	height:	auto;
+}

@@ -1,0 +1,96 @@
+* {
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+            text-align: center;
+            font-family: Arial;
+}
+body{
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+header{
+	background-color: #CABBB7;
+	height: 20vh;
+}
+#Header-Title{
+	position: absolute;
+	left: 10vw;
+	top: 9vh;
+	font-size: 20pt;
+	margin-right: 10vw;
+}
+#logo{
+	position: absolute;
+	top: 4vh;
+	right: 10vw;
+}
+nav{
+	height: 6vh;
+	background-color: #C65252
+}
+ul{
+	list-style: none;
+}
+a{	
+	font-weight: bold;
+	margin-top: 0.5vh;
+	text-decoration: none;
+	font-size: 25pt;
+	color: white;
+	float: right;
+	margin-left: 2vw;
+
+}
+#contact{
+	padding-right: 5vw;
+}
+main{
+	margin-right: 7.5vw;
+	margin-left: 7.5vw;
+}
+.maintext{
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	font-size: 50pt;
+	font-weight: bold;
+}
+.small-text{
+	font-size: 20pt;
+	font-weight: bold;
+	margin-bottom: 3vh;	
+}
+#Phone{
+	max-width: 100%;
+	height: auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.bottom{
+	max-width: 28vw;
+	height: auto;
+}
+div{
+	/*Using overflow hidden here because the bottom two images would go past div when screen changed sides */
+	overflow: hidden;
+	margin-right: 7.5vw;
+	margin-left: 7.5vw;
+}
+footer{
+
+	background-color: #CABBB7;
+	height: 20vh;
+}
+
+#bottom-logo{
+	float: center;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+#footer-text{
+	font-size: 15pt;
+}
